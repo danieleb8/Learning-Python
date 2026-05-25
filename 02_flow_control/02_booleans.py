@@ -35,3 +35,9 @@ if nombre:
 nombre_vacio = ""
 if not nombre_vacio:
     print("Esta cadena vacía es considerada falsa en un contexto booleano.")
+
+
+print("\n la condcisión ternaria")
+numero = 10
+resultado = "El número es positivo" if numero > 0 else "El número no es positivo"
+print(resultado)
